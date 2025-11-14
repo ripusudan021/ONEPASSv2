@@ -4,12 +4,6 @@ A simple password manager built using **React**, **Tailwind CSS**, and a **Node.
 
 ---
 
-## 🔗 Live Demo
-
-[https://ripusudan021.github.io/ONEPASSv1/](https://ripusudan021.github.io/ONEPASSv1/)
-
----
-
 ## 🚀 Features
 
 * Add / Edit / Delete saved passwords
