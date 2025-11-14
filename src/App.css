@@ -1,0 +1,27 @@
+/* === Global Custom Scrollbar === */
+
+/* For Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  width: 10px;               /* Scrollbar width */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #e99e14; /* Orange thumb color */
+  border-radius: 10px;       /* Rounded edges */
+  transition: background-color 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #ffb733; /* Lighter orange on hover */
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a;       /* Dark background track */
+  border-radius: 10px;
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;               /* Thin scrollbar */
+  scrollbar-color: #e99e14 #1a1a1a;    /* thumb color | track color */
+}
